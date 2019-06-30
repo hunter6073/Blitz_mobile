@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ted.myapplication.Activities.Entrance">
+
+    <TextView
+        android:id="@+id/label_username"
+        android:layout_width="328dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="104dp"
+        android:text="please input your username:"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/label_username"
+        app:layout_constraintTop_toBottomOf="@+id/label_username" />
+
+    <Button
+        android:id="@+id/create_room"
+        android:layout_width="139dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:enabled="false"
+        android:text="create room"
+        app:layout_constraintStart_toStartOf="@+id/label_username"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <Button
+        android:id="@+id/join_room"
+        android:layout_width="139dp"
+        android:layout_height="57dp"
+        android:enabled="false"
+        android:text="join room"
+        app:layout_constraintEnd_toEndOf="@+id/label_username"
+        app:layout_constraintTop_toTopOf="@+id/create_room" />
+
+</android.support.constraint.ConstraintLayout>

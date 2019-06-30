@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Blitz</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. Have you given the camera permission to the APP? Or you may need to restart the device.</string>
+    <string name="hint_scan">Please put the code in the frame to scan automatically.</string>
+
+    <string name="title_activity_main_game">MainGame</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
