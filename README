@@ -1,0 +1,11 @@
+# Blitz
+Android AR shooter game
+Description: 
+This is an Android AR shooter game, the name says it all!
+for this game, players will download this app and install it on their phones
+set up the server and get ready to play!
+use your phone as a gun and aim at your friends to cause them damage using the camera
+enemies will be damaged once they're in your crosshairs
+go nuts!
+This game uses AR, streaming and a new positioning algorithm that I invented, works well for 2d flatspace
+Read my paper on this!(should you know chinese, it could be easy to find lol)
